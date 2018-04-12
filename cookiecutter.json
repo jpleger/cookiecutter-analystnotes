@@ -1,0 +1,9 @@
+{
+    "full_name": "James Pleger",
+    "date": "{% now 'local', '%Y_%m_%d' %}",
+    "date_time": "{% now 'local', '%m/%d/%Y %H:%M' %}",
+    "source": "Inbound Ticket",
+    "severity": "Medium",
+    "investigation_name": "Analysis Name",
+    "investigation_slug": "{{cookiecutter.date}}-{{ cookiecutter.investigation_name|lower|replace(' ', '_') }}"
+}

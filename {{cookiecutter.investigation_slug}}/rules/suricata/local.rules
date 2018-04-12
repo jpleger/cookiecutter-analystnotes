@@ -1,0 +1,2 @@
+# Place custom snort/suricata rules in this file
+# Non-rule lines should be prepended with comments
