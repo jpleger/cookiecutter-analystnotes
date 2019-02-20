@@ -1,19 +1,19 @@
 # Blacklist File -- This file is in yml 
 ---
-IP:
- - 127.2.3.4
- - 127.4.5.6
-CIDR:
- - 127.0.0.1/24
-HOST:
- - malicious.domain.com
-DOMAIN:
- - domain.com
-URL:
- - http://malicious.domain.com/malicious_url#withananchor
-MD5:
- - eb1a3227cdc3fedbaec2fe38bf6c044a
-SHA1:
- - 9801739daae44ec5293d4e1f53d3f4d2d426d91c
-SHA256:
- - 12a61f4e173fb3a11c05d6471f74728f76231b4a5fcd9667cef3af87a3ae4dc2
+# ip:
+#  - 127.2.3.4
+#  - 127.4.5.6
+# cidr:
+#  - 127.0.0.1/24
+# hosts:
+#  - bad.domain.com
+# domain:
+#  - domain.com
+# url:
+#  - http://malicious.domain.com/malicious_url#withananchor
+# md5:
+#  - eb1a3227cdc3fedbaec2fe38bf6c044a
+# sha1:
+#  - 9801739daae44ec5293d4e1f53d3f4d2d426d91c
+# sha256:
+#  - 12a61f4e173fb3a11c05d6471f74728f76231b4a5fcd9667cef3af87a3ae4dc2
